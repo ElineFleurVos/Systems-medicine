@@ -5,8 +5,7 @@ This repository contains all code belonging to the course Systems medicine. The 
 
 ### Assignment 1: Analysis of mixed meal model
 
-Each question has its own folder which contains the code for this specific question. Zip files of these folders are uploaded separately 
-for each of the questions in canvas. Here, for each of the questions it is explained what files are made and what they do. All the 
+Each question has its own folder which contains the code for this specific question. For each of the questions it is explained what files are made and what they do. All the 
 figures in the report are made with files that have a name of the form QX.plot. All the figures can also be found in the folder named Figures.
 
 QUESTION 1
@@ -47,33 +46,25 @@ QUESTION 7
 
 ### Assignment 2 Bioinformatics
 
-This read me contains information on the files and code which are found in the zip file. The zip file contains of four folders:
-'Code part A', 'Code part B', 'Bacteria' and 'Figures'. The latter contains all the figures that can be found in the report. 'Bacteria'
-contains the bacteria sbml files used in the study. The first two folders contain the following code files:
+This assignment contains two parts and the code is split into 'Code part A' and 'Code part B'. The 'Bacteria' folder contains the bacteria sbml files used in the study. 
 
 CODE PART A:
 - ga_algorithm: Self-designed global alignment algorithm.
 - load_sequence: Loads the reference sequence (or a any sequence in general) from the NCBI library. 
-- check_chunks: This file checks the difference between calculating the similarity score as a sum of two chunked sequences
-                compared to doing the semi global alignment in one go. Also,the similarity score and total 
-                amount of matches is calculated when using the maximal chunk size of 5000. 
-- analysis_proteins: Does semi-global alignment for the different protein coding sequences and calculates the number of matches and 
-                     percentage of nucleotides with a match. 
+- check_chunks: This file checks the difference between calculating the similarity score as a sum of two chunked sequences compared to doing the semi global alignment in one go. Also,the similarity score and total amount of matches is calculated when using the maximal chunk size of 5000. 
+- analysis_proteins: Does semi-global alignment for the different protein coding sequences and calculates the number of matches and percentage of nucleotides with a match. 
 - translation_function: Contains a function that translate a RNA sequene to an amino acids sequence.
-- analysis_spike: Analyzes the spike protein by finding the exact match of the RNA sequences and translating these RNA sequences to 
-                  amino acid sequences.
+- analysis_spike: Analyzes the spike protein by finding the exact match of the RNA sequences and translating these RNA sequences to amino acid sequences.
 - analysis_membrane_protein: Analyses the membrane protein semi-global alignment
 - analysis_ORF_7a_8: Checks if the ORF7a and ORF8 mutations of Delta 21A are actually present on the reference sequence NC_045512. 
 
 - score_matrix.xlsx: Excel file that contains the score matrix as found in the report. Colors are added here manually. 
 
 CODE PART B:
-- create_graphs: Contains functions that make an undirected metabolite graph, undirected metabolite-reaction graph and directed, weighted
-                 metabolite-reaction graph (from a Cobrapy model).
+- create_graphs: Contains functions that make an undirected metabolite graph, undirected metabolite-reaction graph and directed, weighted metabolite-reaction graph (from a Cobrapy model).
 - plot_graphs: Plots the graphs found in part B of the report. 
 - static_analysis: Plots the rank-degree plots, calculates hubs and plots the 10 metabolites (hubs) with highest degree.
-- shortest_path: Contains one function that calculates the shortest paths from metabolites in the medium to the biomass and two functions
-                 necessary to plot bar plots with the most frequent lengths of the shortest paths.  
+- shortest_path: Contains one function that calculates the shortest paths from metabolites in the medium to the biomass and two functions necessary to plot bar plots with the most frequent lengths of the shortest paths.  
 - change_media: Contains all functions that are associated with the FBA in DMEM and an empty medium. 
 - FBA: Runs and plots the results of the FBA in the medium defined by the SBML file.  
 - FBA_DMEM_empty: Runs and plots the results of the FBA in DMEM and the empty medium.
