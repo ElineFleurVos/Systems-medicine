@@ -3,7 +3,7 @@
 This repository contains all code belonging to the course Systems medicine. The course was separated into two assigments 
 
 
-## Assignment 1: Analysis of mixed meal model
+### Assignment 1: Analysis of mixed meal model
 
 Each question has its own folder which contains the code for this specific question. Zip files of these folders are uploaded separately 
 for each of the questions in canvas. Here, for each of the questions it is explained what files are made and what they do. All the 
@@ -45,7 +45,7 @@ QUESTION 7
 - Q7_run_simulation: Here the model is fitted to the data from the new sample schedule (one sample schedule at a time). A multi-start optimization approach is used. 
 - Q7_plot: Plots the figure that can be found in section 7 of the report. 
 
-## Assignment 2 Bioinformatics
+### Assignment 2 Bioinformatics
 
 This read me contains information on the files and code which are found in the zip file. The zip file contains of four folders:
 'Code part A', 'Code part B', 'Bacteria' and 'Figures'. The latter contains all the figures that can be found in the report. 'Bacteria'
