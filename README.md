@@ -1,6 +1,6 @@
 # Systems-medicine
 
-This repository contains all code belonging to the course Systems medicine. The course was separated into two assigments 
+This repository contains all code belonging to the course Systems medicine. The course was separated into two assigments.
 
 
 ### Assignment 1: Analysis of mixed meal model
